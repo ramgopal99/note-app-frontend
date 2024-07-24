@@ -14,7 +14,7 @@ const RegisterPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/auth/register', { username, email, password });
+      await axios.post('https://note-app-backend-smoky.vercel.app/api/auth/register', { username, email, password });
       navigate('/');
     } catch (error) {
       console.error('Error registering:', error);
