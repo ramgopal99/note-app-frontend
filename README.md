@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Good Note
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+The Good Note is a simple and user-friendly application designed to help you keep track of your thoughts and tasks. It features a secure login and sign-up system and allows you to create and delete notes.
 
-## Available Scripts
+## Features
+- User Authentication:
+  - Login
+  - Sign Up
+- Create Notes: Easily create new notes.
+- Delete Notes: Remove notes that are no longer needed.
 
-In the project directory, you can run:
+## Installation
+To install and run the Good Note locally, follow these steps:
 
-### `npm start`
+1. Clone the Repository:
+        git clone https://github.com/ramgopal99/note-app-frontend.git
+    cd note-app-frontend
+    
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Install Dependencies:
+        npm install
+    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Start the Application:
+        npm start
+    
 
-### `npm test`
+The app will be available at https://note-app-frontend-five.vercel.app/.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+1. Login: Enter your credentials to access your notes.
+2. Sign Up: Create a new account if you don't have one.
+3. Create a Note: Click on the "Add Note" button and fill in the details.
+4. Delete a Note: Click the delete icon to remove a note.
 
-### `npm run build`
+## Backend Code
+The backend code for the Good Note is available [here](https://github.com/ramgopal99/note-app-backend).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact
+For any questions or feedback, please contact us at [ramgopalbagh009@gmail.com](mailto:ramgopalbagh009@gmail.com).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using the Good Note! We hope it helps you stay organized and productive.
