@@ -14,7 +14,7 @@ const LoginPage = () => {
     e.preventDefault();
     try {
       const response = await axios.post('https://note-app-backend-smoky.vercel.app/api/auth/login', { email, password });
-      // localStorage.setItem('token', response.data.token);
+      localStorage.setItem('token', response.data.token);
       navigate('/dashboard');
     } catch (error) {
       console.error('Error logging in:', error);
