@@ -4,8 +4,7 @@ import axios from "axios";
 import "../css/Note.css";
 
 const NotePage = () => {
-  // const { id } = useParams();
-  id="1"
+  const { id } = useParams();
   const navigate = useNavigate();
   const [note, setNote] = useState({ title: "", content: "" });
 
