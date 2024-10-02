@@ -13,7 +13,7 @@ const NotePage = () => {
       if (id !== "new") {
         try {
           const response = await axios.get(
-            `https://note-app-backend-smoky.vercel.app/api/notes`,
+            `https://note-app-backend-smoky.vercel.app/api/notes/${id}`,
             {
               headers: {
                 Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -37,7 +37,7 @@ const NotePage = () => {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
       } else {
-        await axios.put(`https://note-app-backend-smoky.vercel.app/api/notes`, note, {
+        await axios.put(`https://note-app-backend-smoky.vercel.app/api/notes/${id}`, note, {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
       }
@@ -51,7 +51,7 @@ const NotePage = () => {
     const token = localStorage.getItem('token'); // Ensure the token is correct
 
     try {
-      await axios.delete(`https://note-app-backend-smoky.vercel.app/api/notes`, {
+      await axios.delete(`https://note-app-backend-smoky.vercel.app/api/notes/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
